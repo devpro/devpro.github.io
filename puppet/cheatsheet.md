@@ -8,7 +8,7 @@
 # launch manually the puppet agent
 puppet agent --test
 
-# launch locally puppet code (no puppet server needed)
+# launch locally puppet code (no puppet server needed), see https://puppet.com/docs/puppet/5.3/man/apply.html
 puppet apply --modulepath="modules;site" .\manifests\site.pp
 
 # retrieve modules from Puppetfile
