@@ -9,7 +9,7 @@
 puppet agent --test
 
 # launch locally puppet code (no puppet server needed), see https://puppet.com/docs/puppet/5.3/man/apply.html
-puppet apply --modulepath="modules;site" .\manifests\site.pp
+puppet apply --modulepath="modules;site" --hiera_config="hiera.yaml" .\manifests\site.pp
 
 # retrieve modules from Puppetfile
 r10k puppetfile install
@@ -63,6 +63,9 @@ sudo /opt/puppetlabs/puppet/bin/r10k deploy environment --puppetfile
 
 # list certificates to be validated
 sudo /opt/puppetlabs/puppet/bin/puppet cert list
+
+# sign a certificate
+sudo /opt/puppetlabs/puppet/bin/puppet cert sign xxxxxx
 ```
 
 ### Configuration files
