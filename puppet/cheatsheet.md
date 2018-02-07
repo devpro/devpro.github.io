@@ -31,7 +31,8 @@ pdk test unit
 | -------------------------------------------------- | -------------------------------- |
 | `C:\Windows\System32\drivers\etc\hosts`            | Host file                        |
 | `C:\Users\xxxxxxx\.gitconfig`                      | Git configuration file           |
-| `C:\ProgramData\PuppetLabs\puppet\etc\puppet.conf` | Puppet server configuration file |
+| `C:\ProgramData\PuppetLabs\puppet\etc\puppet.conf` | Puppet agent configuration file  |
+| `C:\ProgramData\PuppetLabs\puppet\etc\ssl`         | Puppet client ssl                |
 
 ### Directory structure (Windows)
 
@@ -75,13 +76,15 @@ tail -f /var/log/puppetlabs/puppetserver/puppetserver.log
 tail -f /var/log/puppetlabs/puppetserver/puppetserver-access.log
 ```
 
-### Configuration files
+### Configuration files ([doc](https://puppet.com/docs/puppetserver/5.1/configuration.html))
 
-| File path                            | Details                          |
-| ------------------------------------ | -------------------------------- |
-| `/etc/sysconfig/puppetserver`        | Puppet server configuration file |
-| `/etc/puppetlabs/puppet/puppet.conf` | Puppet agent configuration file  |
-| `/etc/puppetlabs/r10k/r10k.yaml`     | r10k configuration               |
+| File path                                       | Details                                 |
+| ----------------------------------------------- | --------------------------------------- |
+| `/etc/sysconfig/puppetserver`                   | Puppet server configuration file        |
+| `/etc/puppetlabs/puppetserver/conf.d/auth.conf` | Puppet serveur auth configuration file ([doc](https://puppet.com/docs/puppetserver/5.1/config_file_auth.html)) |
+| `/etc/puppetlabs/puppet/puppet.conf`            | Puppet agent configuration file         |
+| `/etc/puppetlabs/puppet/hiera.yaml`             | Hiera configuration file ([doc](https://puppet.com/docs/puppet/5.3/hiera_intro.html)) |
+| `/etc/puppetlabs/r10k/r10k.yaml`                | r10k configuration                      |
 
 ### Directory structure
 
@@ -90,6 +93,7 @@ tail -f /var/log/puppetlabs/puppetserver/puppetserver-access.log
 - `/etc/puppetlabs/code/environments`: Definition per environment, this is where r10k will create folders per git repository branches (production, staging, etc.)
 - `/etc/puppetlabs/puppet`: Puppet Agent configuration
 - `/etc/puppetlabs/puppetserver`: PuppetServer configuration
+- `/etc/puppetlabs/puppetserver/conf.d`: Settings (see [Puppet Server Configuration](https://puppet.com/docs/puppetserver/5.1/configuration.html))
 - `/etc/puppetlabs/r10k`: r10k configuration
 - `/opt/puppetlabs`: Internal Puppet stuff, binaries, etc
 - `/var/log/messages`: Puppet Agent logs
