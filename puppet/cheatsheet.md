@@ -14,6 +14,9 @@ puppet apply --modulepath="modules;site" --hiera_config="hiera.yaml" .\manifests
 # display active configuration
 puppet config print
 
+# get information on the machine the way Puppet does
+facter
+
 # retrieve modules from Puppetfile
 r10k puppetfile install
 
