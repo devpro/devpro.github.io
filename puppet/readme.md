@@ -1,5 +1,7 @@
 # Puppet
 
+[Home](../readme.md) > [Puppet](./readme.md)
+
 This is a set of resources and documentation about Puppet, world leader in configuration and automation.
 
 Links:

@@ -1,5 +1,7 @@
 # Unit tests in Puppet
 
+[Home](../readme.md) > [Puppet](./readme.md) > [Unit testing](./unit_testing.md)
+
 ## Documentation
 
 - [RSPEC-PUPPET](http://rspec-puppet.com/)

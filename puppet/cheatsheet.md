@@ -1,5 +1,7 @@
 # Puppet cheat sheet
 
+[Home](../readme.md) > [Puppet](./readme.md) > [Cheat sheet](./cheatsheet.md)
+
 ## Puppet agent
 
 ### Commands (Windows)
@@ -17,7 +19,7 @@ puppet config print
 # get information on the machine the way Puppet does
 facter
 
-# retrieve modules from Puppetfile
+# retrieve modules from the [Puppetfile](https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd)
 r10k puppetfile install
 
 # PDK command lines
@@ -64,7 +66,7 @@ journalctl -xe
 # get puppet agent service info
 service puppet status
 
-# executes r10k
+# executes r10k ([usage](https://github.com/puppetlabs/r10k/blob/master/doc/dynamic-environments/usage.mkd))
 cd /etc/puppetlabs/r10k
 sudo /opt/puppetlabs/puppet/bin/r10k deploy environment --puppetfile
 
@@ -104,3 +106,7 @@ tail -f /var/log/puppetlabs/puppetserver/puppetserver-access.log
 - `/tmp`: Used by the installer (issues if set ‘noexec’)
 
 You can read [Magic directories: a guide to Puppet directory structure](https://puppet.com/blog/magic-directories-guide-to-puppet-directory-structure).
+
+## Terminology
+
+- r10k [puppet.com](https://puppet.com/blog/git-workflows-puppet-and-r10k)

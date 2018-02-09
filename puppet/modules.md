@@ -1,5 +1,7 @@
 # Puppet modules
 
+[Home](../readme.md) > [Puppet](./readme.md) > [Modules](./modules.md)
+
 ## OS agnostic
 
 | Name                    | Details                          | Link |
@@ -24,5 +26,3 @@
 ### Examples
 
 - Roles and profiles, a concrete example by Puppet ([intro](https://puppet.com/docs/pe/2017.2/r_n_p_intro.html), [example](https://puppet.com/docs/pe/2017.2/r_n_p_full_example.html), [profiles](https://puppet.com/docs/pe/2017.2/r_n_p_profiles.html))
-
-[Back to Puppet menu](./readme.md)
