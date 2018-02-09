@@ -10,6 +10,9 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
 
 * [git](./git/readme.md):
   * [Cheat sheet](./git/cheatsheet.md)
+* [Linux](./linux/readme.md):
+  * [CentOS](./linux/centos/readme.md)
+  * [Ubuntu](./linux/ubuntu/readme.md)
 * [MongoDB](./mongodb/readme.md):
   * [Cheat sheet](./mongodb/cheatsheet.md)
 * [Puppet](./puppet/readme.md):

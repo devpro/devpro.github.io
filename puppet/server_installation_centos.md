@@ -30,12 +30,17 @@ sudo rpm -Uvh https://yum.puppet.com/puppet5/puppet5-release-el-7.noarch.rpm
 yum install -y puppetserver
 # or, for an upgrade (see https://puppet.com/docs/puppet/5.3/upgrade_minor.html):
 yum update puppetserver
+
+# after the installation a puppet user has been created as well as a puppet group, make sure files and folders permissions ownership in regard of this user/group
+sudo chown -R puppet:puppet /etc/puppetlabs
+sudo chmod 770 -R /etc/puppetlabs
 ```
 
 ### r10k ([quickstart](https://github.com/puppetlabs/r10k/blob/master/doc/dynamic-environments/quickstart.mkd))
 
 ```bash
 sudo /opt/puppetlabs/puppet/bin/gem install r10k
+mkdir /etc/puppetlabs/r10k
 vi `/etc/puppetlabs/r10k/r10k.yaml`
 ```
 

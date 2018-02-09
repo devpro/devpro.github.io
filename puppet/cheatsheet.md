@@ -7,6 +7,12 @@
 ### Commands (Windows)
 
 ```bash
+# install the puppet agent
+msiexec /qn /norestart /i path\to\puppet-agent-5.3.X-x64.msi PUPPET_MASTER_SERVER=mypuppetmastername /l*v C:\msipuppetlog.txt
+timeout 60
+sc config "puppet" start= disabled
+sc stop "puppet"
+
 # launch manually the puppet agent
 puppet agent --test
 
