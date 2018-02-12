@@ -25,4 +25,6 @@ passwd
 useradd xxx
 # extend admin permission for 5 minutes
 sudo -v
+# live monitoring of processes
+top
 ```

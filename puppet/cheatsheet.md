@@ -25,6 +25,9 @@ puppet config print
 # get information on the machine the way Puppet does
 facter
 
+# facts ([man page](https://puppet.com/docs/puppet/5.3/man/facts.html))
+puppet facts
+
 # retrieve modules from the [Puppetfile](https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd)
 r10k puppetfile install
 
@@ -34,6 +37,11 @@ pdk new class mymodule
 pdk new class mymodule::myfolder::myclass
 pdk validate
 pdk test unit
+
+# list all installed applications
+puppet resource package
+# list of defined services and their status
+puppet resource service
 ```
 
 ### Configuration files (Windows)

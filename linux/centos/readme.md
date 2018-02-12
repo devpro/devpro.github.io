@@ -9,6 +9,10 @@
 ```bash
 # get information on running CentOS
 cat /etc/centos-release
+# switch between keyboard layouts
+loadkeys fr
+# look at drive disk space
+df -h
 ```
 
 ### Network
@@ -53,6 +57,13 @@ DOMAIN=mydomain.lan
 usermod -a -G wheel myusername
 # review sudo config
 cat /etc/sudoers
-# switch between keyboard layouts
-loadkeys fr
+```
+
+### Services
+
+```bash
+# look at services
+chkconfig
+# get current run level
+runlevel
 ```

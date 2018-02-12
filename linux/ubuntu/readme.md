@@ -9,4 +9,6 @@
 ```bash
 # get information on running Ubuntu
 /etc/lsb-release
+# add myuser in sudo group (sudo permissions)
+sudo usermod -a -G sudo myuser
 ```

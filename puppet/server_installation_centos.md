@@ -15,7 +15,7 @@ sudo yum install git
 
 ```bash
 # given the master/agent architecture it is important to have correct dates on the system.
-yum -y install ntpdate
+sudo yum -y install ntpdate
 ntpdate 0.centos.pool.ntp.org
 ```
 
