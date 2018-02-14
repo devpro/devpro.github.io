@@ -24,6 +24,9 @@ ifconfig
 service network restart
 # check SSH daemon status
 service sshd status
+# stop/disable the firewall
+systemctl stop firewalld
+systemctl disable firewalld
 ```
 
 ```ini
@@ -66,4 +69,6 @@ cat /etc/sudoers
 chkconfig
 # get current run level
 runlevel
+# get all existing services
+service --status-all
 ```

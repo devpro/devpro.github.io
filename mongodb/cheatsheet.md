@@ -4,7 +4,7 @@
 
 ## Client
 
-### Console window
+### Console window ([mongo](https://docs.mongodb.com/manual/reference/program/mongo))
 
 ```bash
 # start a new mongo server (daemon)
