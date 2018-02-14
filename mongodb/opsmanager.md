@@ -306,7 +306,7 @@ If you have an error while sending the test message, you can test directly from 
 
 ```bash
 sudo yum install telnet
-telnet smtp.arkadin.lan 25
+telnet smtp.mycompany.lan 25
 ```
 
 <a id="appendix"></a>
