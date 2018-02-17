@@ -9,7 +9,9 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
 ## Content
 
 * [.NET](./dotnet/readme.md):
-  * [.NET Core](./dotnet/core/cheatsheet.md)
+  * [.NET Core](./dotnet/dotnetcore/readme.md)
+  * [NuGet](./dotnet/nuget.md)
+  * [Visual Studio Team Services (VSTS)](./dotnet/vsts.md)
 * [git](./git/readme.md):
   * [Cheat sheet](./git/cheatsheet.md)
 * [Linux](./linux/readme.md):
@@ -19,6 +21,7 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
 * [MongoDB](./mongodb/readme.md):
   * [Cheat sheet](./mongodb/cheatsheet.md)
   * [Ops Manager](./mongodb/opsmanager.md)
+  * [Version 3.6](./mongodb/mongo3.6.md)
 * [PHP](./php/readme.md)
 * [Puppet](./puppet/readme.md):
   * [Cheat sheet](./puppet/cheatsheet.md)
