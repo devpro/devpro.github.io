@@ -22,19 +22,19 @@ _Solutions available (list not exhaustive!)_:
 
   1/ [MyGet](https://www.myget.org/)
 
-    Pros: very easy to setup (less than 5 minutes), secure, free account (limited but more than enough for personal projects and evaluate), available on internet, works well with VSTS
+  **Pros**: very easy to setup (less than 5 minutes), secure, free account (limited but more than enough for personal projects and evaluate), available on internet, works well with VSTS, no maintenance of infra cost
 
   2/ [VSTS](https://docs.microsoft.com/en-us/vsts/package/get-started-nuget) with [Package Management VSTS extension](https://marketplace.visualstudio.com/items?itemName=ms.feed)
 
-    Pros: natively integrated with VSTS Build
+  **Pros**: natively integrated with VSTS Build, no maintenance of infra cost
 
   3/ Host & deploy a web application referencing [NuGet.Server](https://www.nuget.org/packages/NuGet.Server/)
 
-    Cons: seems like the only free solution BUT time needed to setup (creation of the solution, build & deploy) and maintain the server hosting the solution (+ infra cost), by default no backup or feed on internet
+  **Cons**: seems like the only free solution BUT time needed to setup (creation of the solution, build & deploy) and maintain the server hosting the solution (+ infra cost), by default no backup or feed on internet
 
   4/ Sonatype Nexus
 
-    Cons: community version do not manage NuGet feeds AND infra/maintenance cost plus feeds not on internet by default
+  **Cons**: community version do not manage NuGet feeds AND infra/maintenance cost plus feeds not on internet by default
 
 _Tips_:
 
