@@ -2,17 +2,43 @@
 
 [Home](../readme.md) > [Puppet](./readme.md) > [Cheat sheet](./cheatsheet.md)
 
+## Table of Contents
+
+1. [Puppet agent](#puppet-agent)
+    * [Installation on Windows](#installation-on-windows)
+2. [Puppet server](#puppet-server)
+
 ## Puppet agent
 
-### Commands (Windows)
+### Installation on [Windows](https://puppet.com/docs/puppet/latest/install_windows.html)
+
+Go to [Download page](https://downloads.puppetlabs.com/windows/puppet5/) and select the version that you need (`puppet-agent-x64-latest.msi` for example).
 
 ```bash
 # install the puppet agent
-msiexec /qn /norestart /i path\to\puppet-agent-5.3.X-x64.msi PUPPET_MASTER_SERVER=mypuppetmastername /l*v C:\msipuppetlog.txt
-timeout 60
+msiexec /qn /norestart /i path\to\puppet-agent-5.X.Y-x64.msi PUPPET_MASTER_SERVER=mypuppetmastername /l*v C:\msipuppetlog.txt
+# follow the progress with C:\msipuppetlog.txt (with baretail for example), it takes severals seconds, the file should end with:
+# MSI (c) (C8:DC) [10:40:39:503]: MainEngineThread is returning 0
 sc config "puppet" start= disabled
 sc stop "puppet"
+```
 
+#### Configuration files (Windows)
+
+| File path                                          | Details                          |
+| -------------------------------------------------- | -------------------------------- |
+| `C:\Windows\System32\drivers\etc\hosts`            | Host file                        |
+| `C:\Users\xxxxxxx\.gitconfig`                      | Git configuration file           |
+| `C:\ProgramData\PuppetLabs\puppet\etc\puppet.conf` | Puppet agent configuration file  |
+| `C:\ProgramData\PuppetLabs\puppet\etc\ssl`         | Puppet client ssl                |
+
+#### Directory structure (Windows)
+
+* `C:\ProgramData\PuppetLabs\code\environments`: local copy of environment files
+
+### Agent commands
+
+```bash
 # launch manually the puppet agent
 puppet agent --test
 
@@ -29,7 +55,7 @@ facter
 puppet facts
 
 # retrieve modules from the [Puppetfile](https://github.com/puppetlabs/r10k/blob/master/doc/puppetfile.mkd)
-r10k puppetfile install
+r10k puppetfile install -v
 
 # PDK command lines
 pdk new module
@@ -42,24 +68,17 @@ pdk test unit
 puppet resource package
 # list of defined services and their status
 puppet resource service
+
+# display fact path
+puppet agent --configprint factpath
 ```
 
-### Configuration files (Windows)
+## Puppet server
 
-| File path                                          | Details                          |
-| -------------------------------------------------- | -------------------------------- |
-| `C:\Windows\System32\drivers\etc\hosts`            | Host file                        |
-| `C:\Users\xxxxxxx\.gitconfig`                      | Git configuration file           |
-| `C:\ProgramData\PuppetLabs\puppet\etc\puppet.conf` | Puppet agent configuration file  |
-| `C:\ProgramData\PuppetLabs\puppet\etc\ssl`         | Puppet client ssl                |
+It is also known as **Puppet master**.
+You can review the procedure to install a Puppet server on this [page](./server_installation_centos.md).
 
-### Directory structure (Windows)
-
-- `C:\ProgramData\PuppetLabs\code\environments`: local copy of environment files
-
-## Puppet server (aka master)
-
-### Commands (CentOS)
+### Server commands (CentOS)
 
 ```bash
 # start puppet server
@@ -107,20 +126,20 @@ tail -f /var/log/puppetlabs/puppetserver/puppetserver-access.log
 
 ### Directory structure
 
-- `/etc/puppetlabs`: base path
-- `/etc/puppetlabs/code`: Puppet code managed by git, this is where r10k will
-- `/etc/puppetlabs/code/environments`: Definition per environment, this is where r10k will create folders per git repository branches (production, staging, etc.)
-- `/etc/puppetlabs/puppet`: Puppet Agent configuration
-- `/etc/puppetlabs/puppetserver`: PuppetServer configuration
-- `/etc/puppetlabs/puppetserver/conf.d`: Settings (see [Puppet Server Configuration](https://puppet.com/docs/puppetserver/5.1/configuration.html))
-- `/etc/puppetlabs/r10k`: r10k configuration
-- `/opt/puppetlabs`: Internal Puppet stuff, binaries, etc
-- `/var/log/messages`: Puppet Agent logs
-- `/var/log/puppetlabs`: Other logging
-- `/tmp`: Used by the installer (issues if set ‘noexec’)
+* `/etc/puppetlabs`: base path
+* `/etc/puppetlabs/code`: Puppet code managed by git, this is where r10k will
+* `/etc/puppetlabs/code/environments`: Definition per environment, this is where r10k will create folders per git repository branches (production, staging, etc.)
+* `/etc/puppetlabs/puppet`: Puppet Agent configuration
+* `/etc/puppetlabs/puppetserver`: PuppetServer configuration
+* `/etc/puppetlabs/puppetserver/conf.d`: Settings (see [Puppet Server Configuration](https://puppet.com/docs/puppetserver/5.1/configuration.html))
+* `/etc/puppetlabs/r10k`: r10k configuration
+* `/opt/puppetlabs`: Internal Puppet stuff, binaries, etc
+* `/var/log/messages`: Puppet Agent logs
+* `/var/log/puppetlabs`: Other logging
+* `/tmp`: Used by the installer (issues if set ‘noexec’)
 
 You can read [Magic directories: a guide to Puppet directory structure](https://puppet.com/blog/magic-directories-guide-to-puppet-directory-structure).
 
 ## Terminology
 
-- r10k [puppet.com](https://puppet.com/blog/git-workflows-puppet-and-r10k)
+* r10k [puppet.com](https://puppet.com/blog/git-workflows-puppet-and-r10k)

@@ -42,6 +42,8 @@ sudo chmod 770 -R /etc/puppetlabs
 sudo /opt/puppetlabs/puppet/bin/gem install r10k
 mkdir /etc/puppetlabs/r10k
 vi `/etc/puppetlabs/r10k/r10k.yaml`
+sudo chown -R puppet:puppet /var/cache/r10k
+sudo chmod 770 -R /var/cache/r10k
 ```
 
 ```yaml

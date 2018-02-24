@@ -15,6 +15,13 @@ loadkeys fr
 df -h
 ```
 
+### Packages
+
+```bash
+sudo yum install sysstat
+mpstat
+```
+
 ### Network
 
 ```bash
@@ -57,7 +64,7 @@ DOMAIN=mydomain.lan
 
 ```bash
 # give a user sudo permission (wheel group created by default)
-usermod -a -G wheel myusername
+sudo usermod -a -G wheel myusername
 # review sudo config
 cat /etc/sudoers
 ```

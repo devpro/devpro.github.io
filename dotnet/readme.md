@@ -8,4 +8,5 @@ Pages:
 
 * [.NET Core](./dotnetcore/readme.md)
 * [NuGet](./nuget.md)
+* [Obfuscation](./obfuscation.md)
 * [Visual Studio Team Services (VSTS)](./vsts.md)
