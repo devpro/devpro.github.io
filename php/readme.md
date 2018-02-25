@@ -89,9 +89,9 @@ xdebug.remote_autostart = 1
 
 Visual Studio Code is an indredible tool provided by Microsoft. You can review [PHP Programming in VS Code](https://code.visualstudio.com/docs/languages/php) for more information.
 
-If you don't have PHP directory in your path, don't forget to set `php.validate.executablePath` in your user settings. Otherwise you'll be kindly warned:
+If you want to see a preview or get up to speed quickly, you can watch [laracasts.com series](https://laracasts.com/series/visual-studio-code-for-php-developers).
 
-> Cannot validate since no PHP executable is set. Use the setting 'php.validate.executablePath' to configure the PHP executable.
+You just have to set `php.validate.executablePath` in your user settings in VS Code if it's not in the PATH (which could be a good practice if several PHP versions must be present on the machine).
 
 ## Language
 
@@ -118,6 +118,7 @@ For example, custom_ruleset.xml file content:
 <ruleset name="Custom Standard">
     <rule ref="Squiz">
         <exclude name="Squiz.Commenting.FileComment.Missing"/>
+        <exclude name="Squiz.Strings.DoubleQuoteUsage.ContainsVar" />
     </rule>
 </ruleset>
 ```

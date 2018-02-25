@@ -25,13 +25,97 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://devpro.github.io/dotnet/nuget.html</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://devpro.github.io/dotnet/vsts.html</loc>
     <lastmod>2018-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://devpro.github.io/engineering/</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://devpro.github.io/git/</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/git/cheatsheet.html</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/jenkins/</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/mongodb/</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/mysql/</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/php/</loc>
+    <lastmod>2018-02-25</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/puppet/</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/puppet/cheatsheet.html</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/puppet/modules.html</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/puppet/server_installation_centos.html</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/puppet/unit_testing.html</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/windows/</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/windows_server/</loc>
     <lastmod>2018-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
