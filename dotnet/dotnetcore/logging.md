@@ -22,7 +22,7 @@ Tips:
       <!-- ... -->
     </Project>
     ```
-  * Add IController to the class constructor and the related private field
+  * Add `ILogger` dependency (IoC) to the class constructor and the related private field
 
     ```csharp
     using Microsoft.Extensions.Logging;
