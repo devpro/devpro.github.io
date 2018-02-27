@@ -9,6 +9,7 @@ Pages:
 * [ASP.NET Core](./aspnetcore.md)
 * [Dependency injection](./dependencyinjection.md)
 * [Logging](./logging.md)
+* [Testing](./testing.md)
 
 Quick Links:
 

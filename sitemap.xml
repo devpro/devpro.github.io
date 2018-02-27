@@ -109,6 +109,18 @@
     <priority>0.5</priority>
   </url>
   <url>
+    <loc>https://devpro.github.io/testing/</loc>
+    <lastmod>2018-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/testing/selenium.html</loc>
+    <lastmod>2018-02-26</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
     <loc>https://devpro.github.io/windows/</loc>
     <lastmod>2018-02-19</lastmod>
     <changefreq>daily</changefreq>
