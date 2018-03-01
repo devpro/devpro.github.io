@@ -20,3 +20,7 @@ This is a set of resources and documentation about Windows (Operating System).
 2/ Group email conversation in Outlook
 
 In `View` page, check `Show as Conversations` (more documentation on [support.office.com/fr-fr](https://support.office.com/fr-fr/article/pr%C3%A9sentation-des-conversations-0eeec76c-f59b-4834-98e6-05cfdfa9fb07)).
+
+3/ Create SSH key
+
+Procedure from [github.com](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
