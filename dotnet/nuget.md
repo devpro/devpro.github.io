@@ -1,6 +1,6 @@
 # NuGet
 
-[Home](../readme.md) > [.NET](./readme.md) > [NuGet](./nuget.md)
+[Home](../readme.md) > [.NET](./dotnet.md) > [NuGet](./nuget.md)
 
 ## Presentation
 

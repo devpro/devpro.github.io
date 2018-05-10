@@ -1,6 +1,6 @@
 # Dependency injection in .NET Core
 
-[Home](../../readme.md) > [.NET](../readme.md) > [.NET Core](./readme.md) > [Dependency injection](./dependencyinjection.md)
+[Home](../../readme.md) > [.NET](../dotnet.md) > [.NET Core](./dotnetcore.md) > [Dependency injection](./dependencyinjection.md)
 
 Quick links:
 

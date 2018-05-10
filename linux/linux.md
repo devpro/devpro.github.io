@@ -1,13 +1,13 @@
 # Linux
 
-[Home](../readme.md) > [Linux](./readme.md)
+[Home](../readme.md) > [Linux](./linux.md)
 
 ## Distributions
 
 | Name                    | Details                          |
 | ----------------------- | -------------------------------- |
-| [CentOS](./centos/readme.md) | CentOS (Community Enterprise Operating System) platform functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL) |
-| [Ubuntu](./ubuntu/readme.md) | Ubuntu open source operating system based on the Debian architecture |
+| [CentOS](./centos/centos.md) | CentOS (Community Enterprise Operating System) platform functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL) |
+| [Ubuntu](./ubuntu/ubuntu.md) | Ubuntu open source operating system based on the Debian architecture |
 
 ## Commands
 

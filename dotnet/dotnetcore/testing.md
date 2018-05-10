@@ -1,6 +1,6 @@
 # Testing in .NET Core
 
-[Home](../../readme.md) > [.NET](../readme.md) > [.NET Core](./readme.md) > [Testing](./testing.md)
+[Home](../../readme.md) > [.NET](../dotnet.md) > [.NET Core](./dotnetcore.md) > [Testing](./testing.md)
 
 Documentation:
 

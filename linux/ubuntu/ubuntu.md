@@ -2,13 +2,17 @@
 
 [Home](../../readme.md) > [Linux](../readme.md) > [Ubuntu](./readme.md)
 
+Links:
+
+- [Download](https://www.ubuntu.com/download)
+
 ## Commands
 
 ### General
 
 ```bash
 # get information on running Ubuntu
-/etc/lsb-release
+more /etc/lsb-release
 # add myuser in sudo group (sudo permissions)
 sudo usermod -a -G sudo myuser
 # see status of firewall
@@ -23,4 +27,8 @@ dpkg --get-selections
 # look for files or directories matching a pattern
 sudo updatedb
 locate mongod
+# go back to previous directory
+cd -
+# search in command history
+#Ctrl+R
 ```

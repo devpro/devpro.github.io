@@ -1,6 +1,6 @@
 # .NET Core
 
-[Home](../../readme.md) > [.NET](../readme.md) > [.NET Core](./readme.md)
+[Home](../../readme.md) > [.NET](../dotnet.md) > [.NET Core](./dotnetcore.md)
 
 This is a set of resources and documentation about Microsoft .NET Core framework & technologies.
 
@@ -28,3 +28,16 @@ These are good references to start with (names are self-explanatory!):
   * `Microsoft.Extensions.Logging.Debug`
 * `Microsoft.Extensions.Configuration`
   * `Microsoft.Extensions.Configuration.Json`
+
+## Json serialization
+
+[JavaScriptSerializer Class](https://msdn.microsoft.com/en-us/library/system.web.script.serialization.javascriptserializer.aspx)
+
+Json.NET
+
+You can convert a Json to Xml:
+
+```csharp
+// object is needed as the value is an array
+var expected = JsonConvert.DeserializeXmlNode($"{{\"object\": {step.ExpectedResponseJsonString}}}", "root");
+```

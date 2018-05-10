@@ -7,13 +7,19 @@
     <priority>1</priority>
   </url>
   <url>
-    <loc>https://devpro.github.io/dotnet/</loc>
+    <loc>https://devpro.github.io/docker/docker.html</loc>
+    <lastmod>2018-04-04</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/dotnet/dotnet.html</loc>
     <lastmod>2018-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://devpro.github.io/dotnet/dotnetcore/</loc>
+    <loc>https://devpro.github.io/dotnet/dotnetcore/dotnetcore.html</loc>
     <lastmod>2018-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

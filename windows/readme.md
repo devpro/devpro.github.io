@@ -1,10 +1,13 @@
 # Windows
 
+[Home](../readme.md) > [Windows](./readme.md)
+
 This is a set of resources and documentation about Windows (Operating System).
 
 ## Links
 
 * [DOS](./dos.md)
+* [Hyper-V](./hyper_v.md)
 * [Utilities](./utilities.md)
 
 ## Networks
@@ -24,3 +27,11 @@ In `View` page, check `Show as Conversations` (more documentation on [support.of
 3/ Create SSH key
 
 Procedure from [github.com](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/).
+
+4/ Review credentials
+
+Can be interesting for example to review OneNote credentials.
+
+* Open "Control Panel"
+* Click on "User Accounts"
+* Manage "Windows Credentials"

@@ -1,6 +1,6 @@
 # ASP.NET Core
 
-[Home](../../readme.md) > [.NET](../readme.md) > [.NET Core](./readme.md) > [ASP.NET Core](./aspnetcore.md)
+[Home](../../readme.md) > [.NET](../dotnet.md) > [.NET Core](./dotnetcore.md) > [ASP.NET Core](./aspnetcore.md)
 
 ## Table of Contents
 
@@ -12,6 +12,9 @@
 ## Documentation
 
 * [Configuration](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/configuration/)
+* [Application startup](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/startup)
+* [Error handling](https://docs.microsoft.com/en-us/aspnet/core/fundamentals/error-handling)
+* [Filters](https://docs.microsoft.com/en-us/aspnet/core/mvc/controllers/filters)
 
 ## Case study: New project
 

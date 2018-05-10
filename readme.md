@@ -8,18 +8,22 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
 
 ## Content
 
-* [.NET](./dotnet/readme.md):
-  * [.NET Core](./dotnet/dotnetcore/readme.md)
+* [.NET](./dotnet/dotnet.md):
+  * [.NET Core](./dotnet/dotnetcore/dotnetcore.md)
   * [NuGet](./dotnet/nuget.md)
   * [Obfuscation](./dotnet/obfuscation.md)
   * [Visual Studio Team Services (VSTS)](./dotnet/vsts.md)
-* [Docker](./docker/readme.md)
+* [Docker](./docker/docker.md)
+  * [Cheat sheet](./docker/cheatsheet.md)
 * [git](./git/readme.md):
   * [Cheat sheet](./git/cheatsheet.md)
+* [infra](./infra/infra.md):
+  * [Redis](./infra/redis/redis.md)
+  * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
 * [Jenkins](./jenkins/readme.md):
-* [Linux](./linux/readme.md):
-  * [CentOS](./linux/centos/readme.md)
-  * [Ubuntu](./linux/ubuntu/readme.md)
+* [Linux](./linux/linux.md):
+  * [CentOS](./linux/centos/centos.md)
+  * [Ubuntu](./linux/ubuntu/ubuntu.md)
 * [MySQL](./mysql/readme.md)
 * [MongoDB](./mongodb/readme.md):
   * [Cheat sheet](./mongodb/cheatsheet.md)
