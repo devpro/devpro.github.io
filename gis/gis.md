@@ -1,6 +1,6 @@
 # GIS
 
-[Home](../readme.md) > [GIS](./sig.md)
+[Home](../readme.md) > [GIS](./gis.md)
 
 ## Applications
 
