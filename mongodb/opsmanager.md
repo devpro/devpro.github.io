@@ -1,6 +1,6 @@
 # MongoDB Ops Manager
 
-[Home](../readme.md) > [MongoDB](./readme.md) > [Ops Manager](./opsmanager.md)
+[Home](../readme.md) > [MongoDB](./mongodb.md) > [Ops Manager](./opsmanager.md)
 
 **Ops Manager** is an incredible tool provided by MongoDB. You need to get a licence to use it in Production but the benefits clearly worth it (more info on [mongodb.com](https://www.mongodb.com/products/ops-manager)).
 

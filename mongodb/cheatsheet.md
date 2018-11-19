@@ -1,6 +1,6 @@
 # MongoDB cheat sheet
 
-[Home](../readme.md) > [MongoDB](./readme.md) > [Cheat sheet](./cheatsheet.md)
+[Home](../readme.md) > [MongoDB](./mongodb.md) > [Cheat sheet](./cheatsheet.md)
 
 ## Client
 

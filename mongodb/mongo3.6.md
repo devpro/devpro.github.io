@@ -1,6 +1,6 @@
 # MongoDB 3.6
 
-[Home](../readme.md) > [MongoDB](./readme.md) > [MongoDB 3.6](./mongo3.6.md)
+[Home](../readme.md) > [MongoDB](./mongodb.md) > [MongoDB 3.6](./mongo3.6.md)
 
 ## Features
 
