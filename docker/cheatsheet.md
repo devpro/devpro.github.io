@@ -30,6 +30,11 @@ docker stop xxx
 ```
 
 ```dos
+REM display logs from a container
+docker logs xxx
+```
+
+```dos
 REM start a container
 docker start xxx
 ```
@@ -45,6 +50,11 @@ docker image ls
 
 ```dos
 docker container ls --all
+```
+
+```dos
+docker network ls
+docker network inspect xxx
 ```
 
 Reference: [Child commands](https://docs.docker.com/engine/reference/commandline/docker/#child-commands)

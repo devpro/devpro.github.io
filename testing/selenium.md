@@ -53,3 +53,28 @@ namespace MyNameSpace
     }
 }
 ```
+
+### Container
+
+- Launch container from Selenium Docker image
+
+```csharp
+docker run -d -p 4444:4444 selenium/standalone-chrome
+```
+
+- Open [http://localhost:4444/wd/hub](http://localhost:4444/wd/hub)
+
+- Execute .NET Core script
+
+```csharp
+//using OpenQA.Selenium;
+//using OpenQA.Selenium.Chrome;
+//using OpenQA.Selenium.Remote;
+var options = new ChromeOptions();
+using (var browser = new RemoteWebDriver(new Uri("http://localhost:4444/wd/hub"), options.ToCapabilities()))
+{
+    browser.Navigate().GoToUrl("http://saucelabs.com");
+    var header = browser.FindElement(By.Id("site-header"));
+    browser.Close();
+}
+```
