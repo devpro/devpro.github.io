@@ -1,8 +1,8 @@
 # Ubuntu
 
-[Home](../../readme.md) > [Linux](../readme.md) > [Ubuntu](./readme.md)
+[Home](../readme.md) > [Linux](./linux.md) > [Ubuntu](./ubuntu.md)
 
-Links:
+## Links
 
 - [Download](https://www.ubuntu.com/download)
 

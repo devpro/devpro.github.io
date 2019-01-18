@@ -1,5 +1,7 @@
 # Obfuscate .NET code
 
+[Home](../readme.md) > [.NET](./dotnet.md) > [Obfuscate .NET code](./obfuscation.md)
+
 ## dotfuscator ([overview](https://www.preemptive.com/products/dotfuscator/overview))
 
 `dotfuscator` is a tool, available in Community Edition, that can be installed from `Visual Studio 2017`.

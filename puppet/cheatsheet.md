@@ -1,6 +1,6 @@
 # Puppet cheat sheet
 
-[Home](../readme.md) > [Puppet](./readme.md) > [Cheat sheet](./cheatsheet.md)
+[Home](../readme.md) > [Puppet](./puppet.md) > [Cheat sheet](./cheatsheet.md)
 
 ## Table of Contents
 

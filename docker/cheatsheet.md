@@ -1,6 +1,6 @@
 # Docker cheatsheet
 
-[Home](../readme.md) > [Linux](./linux.md) > [Cheat sheet](./cheatsheet.md)
+[Home](../readme.md) > [Docker](./docker.md) > [Cheat sheet](./cheatsheet.md)
 
 ## Commands
 

@@ -15,22 +15,21 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
   * [Visual Studio Team Services (VSTS)](./dotnet/vsts.md)
 * [Docker](./docker/docker.md)
   * [Cheat sheet](./docker/cheatsheet.md)
-* [git](./git/readme.md):
+* [git](./git/git.md):
   * [Cheat sheet](./git/cheatsheet.md)
 * [infra](./infra/infra.md):
   * [Redis](./infra/redis/redis.md)
   * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
 * [Jenkins](./jenkins/readme.md):
 * [Linux](./linux/linux.md):
-  * [CentOS](./linux/centos/centos.md)
-  * [Ubuntu](./linux/ubuntu/ubuntu.md)
-* [MySQL](./mysql/readme.md)
-* [MongoDB](./mongodb/readme.md):
+  * [CentOS](./linux/centos.md)
+  * [Ubuntu](./linux/ubuntu.md)
+* [MongoDB](./mongodb/mongodb.md):
   * [Cheat sheet](./mongodb/cheatsheet.md)
   * [Ops Manager](./mongodb/opsmanager.md)
   * [Version 3.6](./mongodb/mongo3.6.md)
-* [PHP](./php/readme.md)
-* [Puppet](./puppet/readme.md):
+* [PHP](./php/php.md)
+* [Puppet](./puppet/puppet.md):
   * [Cheat sheet](./puppet/cheatsheet.md)
   * [Modules](./puppet/modules.md)
   * [Server installation on CentOS](./puppet/server_installation_centos.md)

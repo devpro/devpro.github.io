@@ -1,6 +1,6 @@
 # CentOS
 
-[Home](../../readme.md) > [Linux](../readme.md) > [CentOS](./readme.md)
+[Home](../readme.md) > [Linux](./linux.md) > [CentOS](./centos.md)
 
 ## Commands
 

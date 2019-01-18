@@ -1,5 +1,9 @@
 # Git cheat sheet
 
+[Home](../readme.md) > [git](./git.md) > [cheat sheet](./cheatsheet.md)
+
+## Commands
+
 ```bash
 # know your reporistory origin URL
 git config --get remote.origin.url

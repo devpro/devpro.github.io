@@ -6,8 +6,8 @@
 
 | Name                    | Details                          |
 | ----------------------- | -------------------------------- |
-| [CentOS](./centos/centos.md) | CentOS (Community Enterprise Operating System) platform functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL) |
-| [Ubuntu](./ubuntu/ubuntu.md) | Ubuntu open source operating system based on the Debian architecture |
+| [CentOS](./centos.md) | CentOS (Community Enterprise Operating System) platform functionally compatible with its upstream source, Red Hat Enterprise Linux (RHEL) |
+| [Ubuntu](./ubuntu.md) | Ubuntu open source operating system based on the Debian architecture |
 
 ## Commands
 
