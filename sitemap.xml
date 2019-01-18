@@ -43,13 +43,7 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://devpro.github.io/engineering/</loc>
-    <lastmod>2018-02-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://devpro.github.io/git/</loc>
+    <loc>https://devpro.github.io/git/git.html</loc>
     <lastmod>2018-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
@@ -61,31 +55,25 @@
     <priority>0.5</priority>
   </url>
   <url>
-    <loc>https://devpro.github.io/jenkins/</loc>
+    <loc>https://devpro.github.io/jenkins/jenkins.html</loc>
     <lastmod>2018-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://devpro.github.io/mongodb/</loc>
+    <loc>https://devpro.github.io/mongodb/mongodb.html</loc>
     <lastmod>2018-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://devpro.github.io/mysql/</loc>
+    <loc>https://devpro.github.io/php/php.html</loc>
     <lastmod>2018-02-25</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://devpro.github.io/php/</loc>
-    <lastmod>2018-02-25</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://devpro.github.io/puppet/</loc>
+    <loc>https://devpro.github.io/puppet/puppet.html</loc>
     <lastmod>2018-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>

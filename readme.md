@@ -20,7 +20,7 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
 * [infra](./infra/infra.md):
   * [Redis](./infra/redis/redis.md)
   * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
-* [Jenkins](./jenkins/readme.md):
+* [Jenkins](./jenkins/jenkins.md):
 * [Linux](./linux/linux.md):
   * [CentOS](./linux/centos.md)
   * [Ubuntu](./linux/ubuntu.md)

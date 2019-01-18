@@ -1,6 +1,6 @@
 # Unit tests in Puppet
 
-[Home](../readme.md) > [Puppet](./readme.md) > [Unit testing](./unit_testing.md)
+[Home](../readme.md) > [Puppet](./puppet.md) > [Unit testing](./unit_testing.md)
 
 ## Documentation
 

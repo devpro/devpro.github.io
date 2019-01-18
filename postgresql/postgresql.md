@@ -1,6 +1,6 @@
 # PostgreSQL
 
-[Home](../readme.md) > [PostgreSQL](./readme.md)
+[Home](../readme.md) > [PostgreSQL](./postgresql.md)
 
 This is a set of resources and documentation about [PostgreSQL](https://www.postgresql.org/).
 

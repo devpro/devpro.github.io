@@ -1,6 +1,6 @@
 # Puppet modules
 
-[Home](../readme.md) > [Puppet](./readme.md) > [Modules](./modules.md)
+[Home](../readme.md) > [Puppet](./puppet.md) > [Modules](./modules.md)
 
 ## OS agnostic
 

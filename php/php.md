@@ -1,6 +1,6 @@
 # PHP
 
-[Home](../readme.md) > [PHP](./readme.md)
+[Home](../readme.md) > [PHP](./php.md)
 
 This is a set of resources and documentation about _Hypertext Preprocessor_ aka [PHP](https://php.net).
 

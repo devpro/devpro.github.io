@@ -1,6 +1,6 @@
 # Puppet server installation on CentOS
 
-[Home](../readme.md) > [Puppet](./readme.md) > [Server installation on CentOS](./server_installation_centos.md)
+[Home](../readme.md) > [Puppet](./puppet.md) > [Server installation on CentOS](./server_installation_centos.md)
 
 ## Pre-requisites
 
