@@ -1,6 +1,6 @@
 # Running QGIS in Docker
 
-[Home](../../readme.md) > [SIG](../sig.md) > [QGIS](./qgis.md) > [QGIS in Docker](./docker.md)
+[Home](../../readme.md) > Tools > [QGIS](./qgis.md) > [QGIS in Docker](./docker.md)
 
 ## On Windows 10
 

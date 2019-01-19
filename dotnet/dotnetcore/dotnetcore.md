@@ -4,19 +4,21 @@
 
 This is a set of resources and documentation about Microsoft .NET Core framework & technologies.
 
-Pages:
+## Pages
 
 * [ASP.NET Core](./aspnetcore.md)
 * [Dependency injection](./dependencyinjection.md)
 * [Logging](./logging.md)
 * [Testing](./testing.md)
 
-Quick Links:
+## Quick Links
 
 * [Get started](https://www.microsoft.com/net/learn/get-started/windows)
 * [Documentation](https://docs.microsoft.com/en-us/dotnet/core/)
 
-## Console project
+## Use cases
+
+### Console project
 
 By default .NET Core Console applications reference very few elements.
 
@@ -29,11 +31,11 @@ These are good references to start with (names are self-explanatory!):
 * `Microsoft.Extensions.Configuration`
   * `Microsoft.Extensions.Configuration.Json`
 
-## Json serialization
+### Json serialization
 
-[JavaScriptSerializer Class](https://msdn.microsoft.com/en-us/library/system.web.script.serialization.javascriptserializer.aspx)
+- [JavaScriptSerializer Class](https://msdn.microsoft.com/en-us/library/system.web.script.serialization.javascriptserializer.aspx)
 
-Json.NET
+- Json.NET
 
 You can convert a Json to Xml:
 

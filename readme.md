@@ -34,9 +34,11 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
   * [Modules](./puppet/modules.md)
   * [Server installation on CentOS](./puppet/server_installation_centos.md)
   * [Unit testing](./puppet/unit_testing.md)
+* Tools
+  * [QGIS](./tools/qgis/qgis.md)
 * [Windows](./windows/readme.md):
   * [Utilities](./windows/utilities.md)
 * [Windows Server](./windows_server/readme.md):
   * [IIS](./windows_server/iis.md)
 
-This documentation is under heavy construction ;)
+This documentation is regularly updated ;)

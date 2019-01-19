@@ -1,6 +1,6 @@
 # QGIS
 
-[Home](../../readme.md) > [SIG](../sig.md) > [QGIS](./qgis.md)
+[Home](../../readme.md) > Tools > [QGIS](./qgis.md)
 
 > **QGIS** is a professional GIS application that is built on top of and proud to be itself Free and Open Source Software (FOSS) ([qgis.org](https://www.qgis.org/en/site/))
 
