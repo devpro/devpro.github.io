@@ -4,38 +4,45 @@
 
 ## Client
 
-### Console window ([mongo](https://docs.mongodb.com/manual/reference/program/mongo))
+### Command line
 
 ```bash
 # start a new mongo server (daemon)
 mongod --dbpath "C:\my\path" --port 27017
-# start a mongo shell
+
+# start a mongo shell and be on mycollection
 mongo --port 27017 mycollection
-# restore from dump folder
-mongorestore dump
+
+# restore from dump folder into mydbname database
+mongorestore -d mydbname dump
+
 # monitor basic usage statistics for each collection
 mongotop
+
 # monitor basic MongoDB server statistics
 mongostat
 ```
 
+Reference: [docs.mongodb.com/program/mongo](https://docs.mongodb.com/manual/reference/program/mongo)
+
 ### Mongo Shell
 
 ```javascript
+// display current db
+db
+// display the existing collections on the db
+show dbs
 // get DB version
 db.version()
 // display help
 db.help()
 // get current operation
 db.currentOp()
-// display current db
-db
-// display the existing collections on the db
-show dbs
-// connect to db "training"
-use training
 // display the existing collections on the db
 show collections
+
+// connect to db "training"
+use training
 // execute commands from a javascript file
 load("my_file.js")
 // display all entries in "movies" collection with a nice display
@@ -46,18 +53,11 @@ db.movies.remove({ "_id" : ObjectId("59e334a1a48ad3d58f40bb00") })
 db.movieDetails.stat()
 // rename a collection
 db.cars.renameCollection("car")
+
 // display startup log
 use local
 db.startup_log.find().pretty()
+
 // exit the shell (or Ctrl+C)
 quit()
-```
-
-### mtools ([mongodb.com](https://www.mongodb.com/blog/post/introducing-mtools), [github](https://github.com/rueckstiess/mtools/blob/master/INSTALL.md))
-
-**mtools** is a collection of helper scripts, implemented in Python, to parse and filter MongoDB log files (both for mongod and mongos), to visualize information from log files and to quickly set up complex MongoDB test environments on a local machine.
-
-```bash
-# install with pip (Python)
-pip install mtools
 ```

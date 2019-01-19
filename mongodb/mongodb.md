@@ -44,6 +44,8 @@ Go to the [download center](https://www.mongodb.com/download-center), select "Se
   SET PATH=%PATH%;D:\Programs\mongodb-community-4.0.4\bin
   ```
 
+#### First commands
+
 * The following command must return a valid output
 
   ```dos
@@ -100,6 +102,10 @@ Go to the [download center](https://www.mongodb.com/download-center), select "Se
 
 There are good examples on MongoDB University.
 
+### Sample data
+
+* dbKoda holds a collection of sample data: [github.com/SouthbankSoftware/dbkoda-data](https://github.com/SouthbankSoftware/dbkoda-data).
+
 ### Compass
 
 MongoDB Compass is a powerful graphical tool to work on MongoDB databases, either local or remote, such as on MongoDB Atlas (free Cloud).
@@ -113,7 +119,26 @@ How to get it:
 
 MongoDB Atlas is the Cloud solution to easily manage MongoDB clusters. You can create a free cluster with only one email address (no credit card required).
 
-- [Getting started](https://docs.atlas.mongodb.com/getting-started/)
-- [Improving MongoDB Performance with Automatically Generated Index Suggestions](https://www.mongodb.com/blog/post/improving-mongodb-performance-with-automatically-generated-index-suggestions)
+* [Getting started](https://docs.atlas.mongodb.com/getting-started/)
+* [Improving MongoDB Performance with Automatically Generated Index Suggestions](https://www.mongodb.com/blog/post/improving-mongodb-performance-with-automatically-generated-index-suggestions)
 
 Do not forget to look at the Security page of your cluster, in particulier for the IP restriction (white list).
+
+### Open source tools
+
+#### mtools
+
+> mtools is a collection of helper scripts to parse, filter, and visualize MongoDB log files (mongod, mongos). mtools also includes mlaunch, a utility to quickly set up complex MongoDB test environments on a local machine.
+
+More information on [github.com/rueckstiess/mtools](https://github.com/rueckstiess/mtools), [mongodb.com/blog/post/introducing-mtools](https://www.mongodb.com/blog/post/introducing-mtools).
+
+You'll need Python (2 or 3) to install and use it.
+
+```bash
+# install with pip (Python)
+pip install mtools
+```
+
+#### dbKoda
+
+Graphical client for MongoDB databases: [dbkoda.com](https://www.dbkoda.com/) and [github.com/SouthbankSoftware/dbkoda](https://github.com/SouthbankSoftware/dbkoda).
