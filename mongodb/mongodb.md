@@ -4,30 +4,36 @@
 
 This is a set of resources and documentation about MongoDB.
 
+## Table of Contents
+
+1. [Pages](#pages)
+2. [Quick links](#quick-links)
+3. [First steps](#first-steps)
+    * [Mongo Shell](#mongodb-shell)
+    * [Local Server](#local-server)
+    * [Docker](#docker)
+    * [Vagrant](#vagrant)
+    * [Compass](#vagrant)
+
 ## Pages
 
-* [MongoDB 3.6](./mongo3.6.md)
-* [MongoDB cheat sheet](./cheatsheet.md)
-* [MongoDB Ops Manager](./opsmanager.md)
+* [Cheat sheet](./cheatsheet.md)
+* [Ops Manager](./opsmanager.md)
+* [Presentations](./presentations.md)
 
 ## Quick links
 
-* [Atlas](https://cloud.mongodb.com/)
+* [Atlas Cloud (platform as a service)](https://cloud.mongodb.com/)
 * [Documentation](https://docs.mongodb.com/)
-* [SlideShare](https://fr.slideshare.net/mongodb)
-  * [Keynote Eliot 2017-OCT: Atlas, Charts, and Stitch](https://fr.slideshare.net/mongodb/keynote-new-in-mongodb-atlas-charts-and-stitch)
+* [MongoDB University](https://university.mongodb.com/)
 
 ## First steps
 
-### Local installation
-
-There are multiple ways to have MongoDB server running on a local machine.
-
-#### Mongo Shell
+### MongoDB Shell
 
 Go to the [download center](https://www.mongodb.com/download-center), select "Server", then "MongoDB Community Server" edition, chose the target platform and version and let the download complete.
 
-For Windows:
+#### MongoDB Shell on Windows
 
 * You'll download a file like `mongodb-win32-x86_64-2008plus-ssl-4.0.4.zip`
 * Unzip the content of the archive in a program folder (for example `D:\Programs` folder)
@@ -53,7 +59,7 @@ For Windows:
   > distarch: x86_64  
   > target_arch: x86_64  
 
-#### Local Server
+### Local Server
 
 * If you followed the steps to have the Mongo Shell, you'll be able to launch easily a MongoDB server locally (`mongod`).
 
@@ -70,7 +76,7 @@ For Windows:
   mongo
   ```
 
-#### Docker
+### Docker
 
 * Check the images already downloaded locally
 
@@ -90,6 +96,24 @@ For Windows:
   docker run -d -p 27017:27017 --name mongodb404 mongo:4.0.4
   ```
 
-#### Vagrant
+### Vagrant
 
 There are good examples on MongoDB University.
+
+### Compass
+
+MongoDB Compass is a powerful graphical tool to work on MongoDB databases, either local or remote, such as on MongoDB Atlas (free Cloud).
+
+How to get it:
+
+* Navigate to [mongodb.com/download-center/compass](https://www.mongodb.com/download-center/compass), review and set the version and platform, then click "Download" to start the download.
+* For Windows, you'll have a file with a name like "mongodb-compass-1.16.3-win32-x64.exe", you just have to execute the exe file.
+
+### Atlas
+
+MongoDB Atlas is the Cloud solution to easily manage MongoDB clusters. You can create a free cluster with only one email address (no credit card required).
+
+- [Getting started](https://docs.atlas.mongodb.com/getting-started/)
+- [Improving MongoDB Performance with Automatically Generated Index Suggestions](https://www.mongodb.com/blog/post/improving-mongodb-performance-with-automatically-generated-index-suggestions)
+
+Do not forget to look at the Security page of your cluster, in particulier for the IP restriction (white list).

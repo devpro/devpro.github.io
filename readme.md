@@ -27,7 +27,6 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
 * [MongoDB](./mongodb/mongodb.md):
   * [Cheat sheet](./mongodb/cheatsheet.md)
   * [Ops Manager](./mongodb/opsmanager.md)
-  * [Version 3.6](./mongodb/mongo3.6.md)
 * [PHP](./php/php.md)
 * [Puppet](./puppet/puppet.md):
   * [Cheat sheet](./puppet/cheatsheet.md)
