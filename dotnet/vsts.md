@@ -13,7 +13,7 @@
 
 ## Integration
 
-- [ALM | DevOps Rangers community Bot](https://team-services-bot.azurewebsites.net/)
+- [ALM DevOps Rangers community Bot](https://team-services-bot.azurewebsites.net/)
 
 ## Wiki
 
