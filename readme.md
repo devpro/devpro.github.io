@@ -17,6 +17,9 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
   * [Cheat sheet](./docker/cheatsheet.md)
 * [git](./git/git.md):
   * [Cheat sheet](./git/cheatsheet.md)
+* IDE:
+  * [PhpStorm](./ide/phpstorm.md)
+  * [Visual Studio Code](./ide/vscode.md)
 * [infra](./infra/infra.md):
   * [Redis](./infra/redis/redis.md)
   * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
