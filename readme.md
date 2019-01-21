@@ -13,6 +13,11 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
   * [NuGet](./dotnet/nuget.md)
   * [Obfuscation](./dotnet/obfuscation.md)
   * [Visual Studio Team Services (VSTS)](./dotnet/vsts.md)
+* Architecture:
+  * [Message broker (Kafka, Azure Service Bus, RabbitMQ)](./architecture/message_broker.md)
+* Automation:
+  * [Jenkins](./automation/jenkins.md)
+  * [Sonar](./automation/sonar.md)
 * [Docker](./docker/docker.md)
   * [Cheat sheet](./docker/cheatsheet.md)
 * [git](./git/git.md):
@@ -23,7 +28,6 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
 * [Infrastructure (IT system)](./infra/infra.md):
   * [Redis](./infra/redis/redis.md)
   * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
-* [Jenkins](./jenkins/jenkins.md):
 * [Linux](./linux/linux.md):
   * [CentOS](./linux/centos.md)
   * [Ubuntu](./linux/ubuntu.md)

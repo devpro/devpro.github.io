@@ -7,6 +7,24 @@
     <priority>1</priority>
   </url>
   <url>
+    <loc>https://devpro.github.io/architecture/message_broker.html</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/automation/jenkins.html</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://devpro.github.io/automation/sonar.html</loc>
+    <lastmod>2018-02-19</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>https://devpro.github.io/docker/docker.html</loc>
     <lastmod>2018-04-04</lastmod>
     <changefreq>daily</changefreq>
@@ -56,12 +74,6 @@
   </url>
   <url>
     <loc>https://devpro.github.io/infra/redis/redis.html</loc>
-    <lastmod>2018-02-19</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.8</priority>
-  </url>
-  <url>
-    <loc>https://devpro.github.io/jenkins/jenkins.html</loc>
     <lastmod>2018-02-19</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
