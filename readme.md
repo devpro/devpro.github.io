@@ -4,7 +4,7 @@ Hello, I'm Bertrand Thomas.
 
 Welcome to my personal website hosted and provided by github.
 
-You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
+You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
 
 ## Content
 
@@ -20,7 +20,7 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
 * IDE:
   * [PhpStorm](./ide/phpstorm.md)
   * [Visual Studio Code](./ide/vscode.md)
-* [infra](./infra/infra.md):
+* [Infrastructure (IT system)](./infra/infra.md):
   * [Redis](./infra/redis/redis.md)
   * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
 * [Jenkins](./jenkins/jenkins.md):
@@ -40,7 +40,7 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
 * Tools
   * [QGIS](./tools/qgis/qgis.md)
 * [Testing](./testing/testing.md):
-  * [QGIS](./testing/selenium.md)
+  * [Selenium](./testing/selenium.md)
 * [Windows](./windows/windows.md):
   * [Utilities](./windows/utilities.md)
   * [IIS](./windows/iis.md)
