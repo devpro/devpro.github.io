@@ -14,3 +14,7 @@
 ## Integration
 
 - [ALM | DevOps Rangers community Bot](https://team-services-bot.azurewebsites.net/)
+
+## Wiki
+
+- Use `[[_TOC_]]` to have an automatically generated table of content (more information on [Syntax guidance for Markdown usage](https://docs.microsoft.com/en-us/azure/devops/project/wiki/markdown-guidance?view=vsts))

@@ -1,6 +1,6 @@
 # Hyper-V
 
-[Home](../readme.md) > [Windows](./readme.md) > [Hyper-V](./hyper_v.md)
+[Home](../readme.md) > [Windows](./windows.md) > [Hyper-V](./hyper_v.md)
 
 ## Readings
 

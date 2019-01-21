@@ -4,16 +4,21 @@
 
 This is a set of resources and documentation about _Hypertext Preprocessor_ aka [PHP](https://php.net).
 
-## Page content
+## Table of content
 
-1. [Dev setup](#dev-setup)
+1. [Pages](#pages)
+2. [Dev setup](#dev-setup)
     * [PHP binaries](#php-binaries)
     * [Composer](#composer)
     * [XDebug](#xdebug)
     * [IDE](#ide)
-2. [Language](#language)
+3. [Language](#language)
     * [Conventions](#conventions)
     * [MongoDB driver](#mongodb-driver)
+
+## Pages
+
+* [Symfony](./symfony/symfony.md)
 
 ## Dev setup
 

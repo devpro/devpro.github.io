@@ -1,8 +1,11 @@
 # IIS
 
+[Home](../readme.md) > [Windows](./windows.md) > [IIS](./iis.md)
+
 ## inetsrv
 
 You may experience some issues while using appcmd.exe if the IIS configuration is invalid.
+
 In this case, look at the error details and double check the `applicationHost.config` file.
 
 Possible locations:

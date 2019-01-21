@@ -6,7 +6,7 @@
 
 ## Content
 
-- [QGIS in Docker](./docker.md)
+- [QGIS in Docker](./qgis_in_docker.md)
 
 ## Documentation
 

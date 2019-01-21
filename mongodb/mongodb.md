@@ -102,10 +102,6 @@ Go to the [download center](https://www.mongodb.com/download-center), select "Se
 
 There are good examples on MongoDB University.
 
-### Sample data
-
-* dbKoda holds a collection of sample data: [github.com/SouthbankSoftware/dbkoda-data](https://github.com/SouthbankSoftware/dbkoda-data).
-
 ### Compass
 
 MongoDB Compass is a powerful graphical tool to work on MongoDB databases, either local or remote, such as on MongoDB Atlas (free Cloud).
@@ -123,6 +119,32 @@ MongoDB Atlas is the Cloud solution to easily manage MongoDB clusters. You can c
 * [Improving MongoDB Performance with Automatically Generated Index Suggestions](https://www.mongodb.com/blog/post/improving-mongodb-performance-with-automatically-generated-index-suggestions)
 
 Do not forget to look at the Security page of your cluster, in particulier for the IP restriction (white list).
+
+### Sample data
+
+#### Zip code
+
+* Download the zip file export from [docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set](https://docs.mongodb.com/manual/tutorial/aggregation-zip-code-data-set/).
+
+* Import the data into your MongoDB server
+
+  ```bash
+  # to be run in the folder containing the json file
+  mongoimport --db demoZip --collection zips --file zips.json
+  # it should generate the following output
+  # 2018-11-19T14:48:53.296+0100    connected to: localhost
+  # 2018-11-19T14:48:53.705+0100    imported 29353 documents
+  ```
+
+* You can also import the data to your Atlas cluster
+
+  ```bash
+  mongoimport --uri "mongodb+srv://user:password@mycluster.mongodb.net/demoZip" --collection zips --file zips.json
+  ```
+
+#### dbKoda samples
+
+* dbKoda holds a collection of sample data: [github.com/SouthbankSoftware/dbkoda-data](https://github.com/SouthbankSoftware/dbkoda-data).
 
 ### Open source tools
 

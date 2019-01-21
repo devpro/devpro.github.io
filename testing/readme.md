@@ -1,9 +1,9 @@
 # Testing
 
-[Home](../readme.md) > [Testing](./readme.md)
+[Home](../readme.md) > [Testing](./testing.md)
 
 This is a set of resources and documentation about Testing.
 
-Links:
+## Pages
 
 * [Selenium](./selenium.md)

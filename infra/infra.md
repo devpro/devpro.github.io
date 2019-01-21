@@ -2,7 +2,7 @@
 
 This is a set of resources and documentation about Infrastructure subjects.
 
-Links:
+## Pages
 
 * [Redis](./redis/redis.md)
 * [Elastic Stack](./elastic-stack/elastic-stack.md)

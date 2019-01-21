@@ -4,10 +4,6 @@
 
 This is a set of resources and documentation about [PostgreSQL](https://www.postgresql.org/).
 
-| Action | Request |
-| ------ | ------- |
-| Update a user password | `` |
-
 ## Queries
 
 ### SQL

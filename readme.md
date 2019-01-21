@@ -28,6 +28,7 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
   * [Cheat sheet](./mongodb/cheatsheet.md)
   * [Ops Manager](./mongodb/opsmanager.md)
 * [PHP](./php/php.md)
+  * [Symfony](./php/symfony/symfony.md)
 * [Puppet](./puppet/puppet.md):
   * [Cheat sheet](./puppet/cheatsheet.md)
   * [Modules](./puppet/modules.md)
@@ -35,9 +36,10 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr/).
   * [Unit testing](./puppet/unit_testing.md)
 * Tools
   * [QGIS](./tools/qgis/qgis.md)
-* [Windows](./windows/readme.md):
+* [Testing](./testing/testing.md):
+  * [QGIS](./testing/selenium.md)
+* [Windows](./windows/windows.md):
   * [Utilities](./windows/utilities.md)
-* [Windows Server](./windows_server/readme.md):
-  * [IIS](./windows_server/iis.md)
+  * [IIS](./windows/iis.md)
 
 This documentation is regularly updated ;)

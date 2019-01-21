@@ -1,6 +1,6 @@
 # Selenium
 
-[Home](../readme.md) > [Testing](./readme.md) > [Selenium](./selenium.md)
+[Home](../readme.md) > [Testing](./testing.md) > [Selenium](./selenium.md)
 
 This is a set of resources and documentation about [Selenium](https://www.seleniumhq.org/).
 
