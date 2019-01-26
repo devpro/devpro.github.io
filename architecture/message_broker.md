@@ -1,5 +1,7 @@
 # Message broker
 
+[Home](../readme.md) > [Architecture](./architecture.md) > [Message Broker](./message_broker.md) 
+
 A message broker ([wikipedia](https://en.wikipedia.org/wiki/Message_broker)) is a component that is part of an IT infrastructure whose primarly goal is to receive messages and make them available to other components.
 
 It is a way to decouple applications inside an information system and provide high performance.

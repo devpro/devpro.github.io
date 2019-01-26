@@ -13,7 +13,7 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
   * [NuGet](./dotnet/nuget.md)
   * [Obfuscation](./dotnet/obfuscation.md)
   * [Visual Studio Team Services (VSTS)](./dotnet/vsts.md)
-* Architecture:
+* [Architecture](./architecture/architecture.md):
   * [Message broker (Kafka, Azure Service Bus, RabbitMQ)](./architecture/message_broker.md)
 * Automation:
   * [Jenkins](./automation/jenkins.md)
