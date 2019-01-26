@@ -28,7 +28,10 @@ git fetch origin
 # delete locally dev branch (on wrong remotes for instance)
 git branch -d dev
 
-# switch remotes
+# switch remotes (if branch has been deleted first)
 git branch dev -t origin/dev
 git checkout dev
+
+# switch upstream on an existing branch
+git branch --set-upstream-to=origin/dev dev
 ```
