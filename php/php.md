@@ -45,6 +45,8 @@ php -v
 # Zend Engine v3.2.0, Copyright (c) 1998-2018 Zend Technologies
 ```
 
+By default, there is no `php.ini` file in the installation folder, you can copy the development one to create your own file.
+
 ### Composer
 
 [Composer](https://getcomposer.org/) is the dependency (package) manager for PHP.
