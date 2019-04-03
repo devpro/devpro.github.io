@@ -34,4 +34,7 @@ git checkout dev
 
 # switch upstream on an existing branch
 git branch --set-upstream-to=origin/dev dev
+
+# push a branch (master) on a specific remote (other)
+git push -u other master
 ```
