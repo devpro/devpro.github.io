@@ -29,7 +29,7 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
   * [Redis](./infra/redis/redis.md)
   * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
 * Kubernetes
-  * [Cheat sheet](./Kubernetes/cheatsheet.md)
+  * [Cheat sheet](./kubernetes/cheatsheet.md)
 * [Linux](./linux/linux.md):
   * [CentOS](./linux/centos.md)
   * [Ubuntu](./linux/ubuntu.md)
