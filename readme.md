@@ -28,14 +28,14 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
 * [Infrastructure (IT system)](./infra/infra.md):
   * [Redis](./infra/redis/redis.md)
   * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
+* Kubernetes
+  * [Cheat sheet](./Kubernetes/cheatsheet.md)
 * [Linux](./linux/linux.md):
   * [CentOS](./linux/centos.md)
   * [Ubuntu](./linux/ubuntu.md)
 * [MongoDB](./mongodb/mongodb.md):
   * [Cheat sheet](./mongodb/cheatsheet.md)
   * [Ops Manager](./mongodb/opsmanager.md)
-* Kubernetes
-  * [Cheat sheet](./Kubernetes/cheatsheet.md)
 * [PHP](./php/php.md)
   * [Symfony](./php/symfony/symfony.md)
 * [Puppet](./puppet/puppet.md):
