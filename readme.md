@@ -2,7 +2,7 @@
 
 Hello, I'm Bertrand Thomas.
 
-Welcome to my personal website hosted and provided by github.
+Welcome to my personal website hosted and provided by GitHub.
 
 You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
 
@@ -34,6 +34,8 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
 * [MongoDB](./mongodb/mongodb.md):
   * [Cheat sheet](./mongodb/cheatsheet.md)
   * [Ops Manager](./mongodb/opsmanager.md)
+* Kubernetes
+  * [Cheat sheet](./Kubernetes/cheatsheet.md)
 * [PHP](./php/php.md)
   * [Symfony](./php/symfony/symfony.md)
 * [Puppet](./puppet/puppet.md):
