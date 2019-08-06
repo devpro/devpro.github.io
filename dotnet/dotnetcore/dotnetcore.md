@@ -6,6 +6,7 @@ This is a set of resources and documentation about Microsoft .NET Core framework
 
 ## Pages
 
+* [.NET CLI cheatsheet](./dotnet-cli-cheatsheet.md)
 * [ASP.NET Core](./aspnetcore.md)
 * [Dependency injection](./dependencyinjection.md)
 * [Logging](./logging.md)

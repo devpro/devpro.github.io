@@ -37,4 +37,7 @@ git branch --set-upstream-to=origin/dev dev
 
 # push a branch (master) on a specific remote (other)
 git push -u other master
+
+# Navigate through the tags and branches
+git log --graph --decorate --oneline --all
 ```
