@@ -32,6 +32,7 @@ Examples:
 Examples:
 
 - `dotnet add test/PalTrackerTests reference src/PalTracker/PalTracker.csproj`
+- `dotnet add test/PalTrackerTests package Microsoft.AspNetCore.TestHost --version 2.2.0`
 
 ## Sln command
 
@@ -62,3 +63,9 @@ Examples:
 Examples:
 
 - `dotnet publish src/PalTracker --configuration Release`
+
+## Test command
+
+Examples:
+
+- `dotnet test test/PalTrackerTests --filter PalTrackerTests.InMemoryTimeEntryRepositoryTest`

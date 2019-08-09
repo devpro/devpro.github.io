@@ -18,6 +18,8 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
 * Automation:
   * [Jenkins](./automation/jenkins.md)
   * [Sonar](./automation/sonar.md)
+* Cloud Foundry:
+  * [Cloud Foundry CLI cheatsheet](./cloudfoundry/cloudfoundry-cli-cheatsheet.md)
 * [Docker](./docker/docker.md)
   * [Cheat sheet](./docker/cheatsheet.md)
 * [git](./git/git.md):
