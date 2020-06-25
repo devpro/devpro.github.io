@@ -18,30 +18,22 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
 * Automation:
   * [Jenkins](./automation/jenkins.md)
   * [Sonar](./automation/sonar.md)
-* Cloud Foundry:
-  * [Cloud Foundry CLI cheatsheet](./cloudfoundry/cloudfoundry-cli-cheatsheet.md)
 * [Docker](./docker/docker.md)
-  * [Cheat sheet](./docker/cheatsheet.md)
-* [git](./git/git.md):
-  * [Cheat sheet](./git/cheatsheet.md)
+* [git](./git/git.md)
 * IDE:
   * [PhpStorm](./ide/phpstorm.md)
   * [Visual Studio Code](./ide/vscode.md)
 * [Infrastructure (IT system)](./infra/infra.md):
   * [Redis](./infra/redis/redis.md)
   * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
-* Kubernetes
-  * [Cheat sheet](./kubernetes/cheatsheet.md)
 * [Linux](./linux/linux.md):
   * [CentOS](./linux/centos.md)
   * [Ubuntu](./linux/ubuntu.md)
 * [MongoDB](./mongodb/mongodb.md):
-  * [Cheat sheet](./mongodb/cheatsheet.md)
   * [Ops Manager](./mongodb/opsmanager.md)
 * [PHP](./php/php.md)
   * [Symfony](./php/symfony/symfony.md)
 * [Puppet](./puppet/puppet.md):
-  * [Cheat sheet](./puppet/cheatsheet.md)
   * [Modules](./puppet/modules.md)
   * [Server installation on CentOS](./puppet/server_installation_centos.md)
   * [Unit testing](./puppet/unit_testing.md)
