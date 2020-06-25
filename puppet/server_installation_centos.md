@@ -72,5 +72,3 @@ sudo /opt/puppetlabs/puppet/bin/r10k deploy environment --puppetfile
 firewall-cmd --permanent --zone=public --add-port=8140/tcp
 firewall-cmd --reload
 ```
-
-To go further, you can look at [Puppet cheat sheet](./cheatsheet.md).
