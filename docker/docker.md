@@ -2,10 +2,6 @@
 
 [Home](../readme.md) > [Docker](./docker.md)
 
-Links:
-
-- [Cheat sheet](./cheatsheet.md)
-
 ## Documentation
 
 [Docker Documentation](https://docs.docker.com/)
