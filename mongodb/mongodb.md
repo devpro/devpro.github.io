@@ -17,7 +17,6 @@ This is a set of resources and documentation about MongoDB.
 
 ## Pages
 
-* [Cheat sheet](./cheatsheet.md)
 * [Ops Manager](./opsmanager.md)
 * [Presentations](./presentations.md)
 
