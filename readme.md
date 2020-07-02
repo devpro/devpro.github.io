@@ -25,7 +25,7 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
 * [Infrastructure (IT system)](./infra/infra.md):
   * [Redis](./infra/redis/redis.md)
   * [Elastic Stack](./infra/elastic-stack/elastic-stack.md)
-* [Linux](./linux/linux.md):
+* Linux:
   * [CentOS](./linux/centos.md)
   * [Ubuntu](./linux/ubuntu.md)
 * [MongoDB](./mongodb/mongodb.md):
