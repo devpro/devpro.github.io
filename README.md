@@ -18,7 +18,6 @@ You can follow me on twitter [@devprofr](https://twitter.com/devprofr).
 * Automation:
   * [Jenkins](./automation/jenkins.md)
   * [Sonar](./automation/sonar.md)
-* [Docker](./docker/docker.md)
 * IDE:
   * [PhpStorm](./ide/phpstorm.md)
   * [Visual Studio Code](./ide/vscode.md)
